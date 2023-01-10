@@ -1,0 +1,42 @@
+html{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Comic Neue', cursive;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+
+.button{
+    padding: 0.5rem 1rem;
+    border-radius: 50%;
+    background-color: #333333;
+    color: #ffffff; 
+    font-size: 1.65rem;
+    text-align: center;
+    height: 75px;       
+    width: 75px; 
+    cursor: pointer;      
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.row input{
+    margin: 1rem;
+    /* padding: 2rem 8rem; */
+    font-size:3rem;
+    height:75px;
+    text-align: center;
+    background-color: black;
+    color: #afafaf;
+    border: none;
+}
+input:focus {
+    outline:none;
+}
